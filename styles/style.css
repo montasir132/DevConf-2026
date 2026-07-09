@@ -35,13 +35,10 @@ img{
 /* common css end */
 /* navber section start  */
 .nav_main{
-    padding: 20px 0;
-    /* position: static; */
-}
-.nav_mane{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 
 .menu ul li {
@@ -57,4 +54,5 @@ img{
 .menu ul li a:hover{
     border-bottom: 2px dotted rgba(87, 87, 87, 1);
 }
+
 /* navber section end */
