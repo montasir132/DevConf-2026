@@ -3,7 +3,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
-
+/* common css start*/
 .container {
     max-width: 1240px;
     margin: auto;
@@ -39,7 +39,6 @@ img {
     text-transform: capitalize;
     color: rgba(255, 255, 255, 1);
 }
-
 /* common css end */
 /* navber section start  */
 .header {
@@ -111,3 +110,53 @@ img {
 }
 
 /* hero section end */
+/* Meet the Speakers section start */
+.speakers_root{
+    padding: 40px 0 170px;
+}
+.speakers_head{
+    margin: 40px 0 55px;
+}
+.speakers_head h1{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 64.4px;
+    text-align: center;
+    color: rgba(0, 1, 2, 1);
+}
+.speakers_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+.speakers_cart{
+    margin-bottom: 35px;
+    border-radius: 12px;
+    border: 1px solid rgba(229, 231, 235, 1);
+}
+.speakers_cart span{
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgba(37, 99, 235, 1);
+}
+.speakers_cart h5{
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 27px;
+    color: rgba(13, 27, 42, 1);
+}
+.speakers_cart p{
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgba(87, 87, 87, 1);
+}
+.speakers_cart_text{
+    padding: 25px 0 25px 25px;
+}
+/* Meet the Speakers section end  */
+/* pricing section start */
+
+/* pricing section end  */
