@@ -112,7 +112,7 @@ img {
 /* hero section end */
 /* Meet the Speakers section start */
 .speakers_root{
-    padding: 40px 0 170px;
+    padding: 40px 0 135px;
 }
 .speakers_head{
     margin: 40px 0 55px;
@@ -158,5 +158,161 @@ img {
 }
 /* Meet the Speakers section end  */
 /* pricing section start */
+.pricing_header{
+    text-align: center;
+}
+.pricing_header h1{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgba(13, 27, 42, 1);
+}
+.pricing_header p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    padding-top: 12px;
+    color: rgba(87, 87, 87, 1);
+}
+.pricing_section{
+    padding: 48px 80px 80px;
+}
+.pricing_cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+.pricing_cart div{
+    border-radius: 12px;
+    padding: 32px;
+}
+.pricing_cart div span{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 19.5px;
+    letter-spacing: 0.32px;
+    text-transform: uppercase;
+}
+.pricing_cart div h2{
+    font-size: 2.7rem;
+    font-weight: 700;
+    line-height: 44px;
+    margin-top: 8px;
+}
+.pricing_cart div p{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19.5px;
+    margin-top: 5px;
+}
+.pricing_cart div hr{
+    width: 300px;
+    margin: 20px 0;
+}
+.pricing_cart div ul{
+    padding-left: 15px;
+}
+.pricing_cart div ul li{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    list-style: disc;
+    margin: 10px 0;
+}
+.pricing_cart div button{
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 11px 106px;
+}
+.pricing_cart div button a{
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 21px;
+    text-align: center;
+}
+/* pricing_cart_left start */
+.pricing_cart_left{
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(229, 231, 235, 1);
+}
+.pricing_cart_left span{
+    color: rgba(136, 136, 136, 1);
+}
+.pricing_cart_left h2{
+    color: rgba(13, 27, 42, 1);
+}
+.pricing_cart_left p{
+    color: rgba(136, 136, 136, 1);
+}
+.pricing_cart_left ul li{
+    color: rgba(51, 51, 51, 1);
+}
+.pricing_cart_left button{
+    border: 1px solid rgba(37, 99, 235, 1);
+    background-color: #ffff;
+}
+.pricing_cart_left button a{
+    color: rgba(37, 99, 235, 1);
+}
+/* pricing_cart_left end */
+/* pricing_cart_midele start  */
+.pricing_cart_midele{
+    background-color: rgba(13, 27, 42, 1);
+    border: 1px solid rgba(13, 27, 42, 1);
+}
+.pricing_cart_midele span{
+    color: rgba(147, 197, 253, 1);
 
+}
+.pricing_cart_midele h2{
+    color: rgba(255, 255, 255, 1);
+}
+.pricing_cart_midele p{
+    color: rgba(255, 255, 255, 0.5);
+}
+.pricing_cart_midele hr{
+    /* color: rgba(255, 255, 255, 0.1) !important; */
+}
+.pricing_cart_midele ul li{
+    color: rgba(255, 255, 255, 0.8);
+}
+.pricing_cart_midele button{
+    padding: 11px 126px !important;
+    background-color: rgba(37, 99, 235, 1);
+    border: 1px solid rgba(13, 27, 42, 1);
+}
+.pricing_cart_midele button a{
+    color: rgba(255, 255, 255, 1);
+}
+/* pricing_cart_midele end  */
+/* pricing_cart_right start */
+.pricing_cart_right{
+    background-color: rgba(248, 249, 251, 1);
+    border: 1px solid rgba(229, 231, 235, 1);
+}
+.pricing_cart_right span{
+    color:rgba(136, 136, 136, 1) ;
+}
+.pricing_cart_right h2{
+    color:rgba(13, 27, 42, 1);
+}
+.pricing_cart_right p{
+    color: rgba(136, 136, 136, 1);
+}
+.pricing_cart_right{
+    color:rgba(229, 231, 235, 1);
+}
+.pricing_cart_right ul li{
+    color: rgba(51, 51, 51, 1);
+}
+.pricing_cart_right button{
+    padding: 11px 113px !important;
+    border: 1px solid rgba(13, 27, 42, 1);
+    background-color: rgba(248, 249, 251, 1);
+}
+.pricing_cart_right button a{
+    color: rgba(13, 27, 42, 1);
+}
+/* pricing_cart_right end  */
 /* pricing section end  */
