@@ -3,6 +3,7 @@
     padding: 0;
     font-family: "Inter", sans-serif;
 }
+
 /* common css start*/
 .container {
     max-width: 1240px;
@@ -39,6 +40,7 @@ img {
     text-transform: capitalize;
     color: rgba(255, 255, 255, 1);
 }
+
 /* common css end */
 /* navber section start  */
 .header {
@@ -111,207 +113,341 @@ img {
 
 /* hero section end */
 /* Meet the Speakers section start */
-.speakers_root{
+.speakers_root {
     padding: 40px 0 135px;
 }
-.speakers_head{
+
+.speakers_head {
     margin: 40px 0 55px;
 }
-.speakers_head h1{
+
+.speakers_head h1 {
     font-size: 3.5rem;
     font-weight: 700;
     line-height: 64.4px;
     text-align: center;
     color: rgba(0, 1, 2, 1);
 }
-.speakers_info{
+
+.speakers_info {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 32px;
 }
-.speakers_cart{
+
+.speakers_cart {
     margin-bottom: 35px;
     border-radius: 12px;
     border: 1px solid rgba(229, 231, 235, 1);
 }
-.speakers_cart span{
+
+.speakers_cart span {
     font-size: 0.7rem;
     font-weight: 600;
     text-transform: uppercase;
     color: rgba(37, 99, 235, 1);
 }
-.speakers_cart h5{
+
+.speakers_cart h5 {
     font-size: 1.2rem;
     font-weight: 700;
     line-height: 27px;
     color: rgba(13, 27, 42, 1);
 }
-.speakers_cart p{
+
+.speakers_cart p {
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 21px;
     color: rgba(87, 87, 87, 1);
 }
-.speakers_cart_text{
+
+.speakers_cart_text {
     padding: 25px 0 25px 25px;
 }
+
 /* Meet the Speakers section end  */
 /* pricing section start */
-.pricing_header{
+.pricing_header {
     text-align: center;
 }
-.pricing_header h1{
+
+.pricing_header h1 {
     font-size: 3rem;
     font-weight: 700;
     line-height: 60px;
     color: rgba(13, 27, 42, 1);
 }
-.pricing_header p{
+
+.pricing_header p {
     font-size: 1rem;
     font-weight: 400;
     line-height: 24px;
     padding-top: 12px;
     color: rgba(87, 87, 87, 1);
 }
-.pricing_section{
+
+.pricing_section {
     padding: 48px 80px 80px;
 }
-.pricing_cart{
+
+.pricing_cart {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 25px;
 }
-.pricing_cart div{
+
+.pricing_cart div {
     border-radius: 12px;
     padding: 32px;
 }
-.pricing_cart div span{
+
+.pricing_cart div span {
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 19.5px;
     letter-spacing: 0.32px;
     text-transform: uppercase;
 }
-.pricing_cart div h2{
+
+.pricing_cart div h2 {
     font-size: 2.7rem;
     font-weight: 700;
     line-height: 44px;
     margin-top: 8px;
 }
-.pricing_cart div p{
+
+.pricing_cart div p {
     font-weight: 400;
     font-size: 13px;
     line-height: 19.5px;
     margin-top: 5px;
 }
-.pricing_cart div hr{
+
+.pricing_cart div hr {
     width: 300px;
     margin: 20px 0;
 }
-.pricing_cart div ul{
+
+.pricing_cart div ul {
     padding-left: 15px;
 }
-.pricing_cart div ul li{
+
+.pricing_cart div ul li {
     font-weight: 400;
     font-size: 14px;
     line-height: 21px;
     list-style: disc;
     margin: 10px 0;
 }
-.pricing_cart div button{
+
+.pricing_cart div button {
     border-radius: 8px;
     margin-top: 20px;
     padding: 11px 106px;
 }
-.pricing_cart div button a{
+
+.pricing_cart div button a {
     font-size: 0.8rem;
     font-weight: 600;
     line-height: 21px;
     text-align: center;
 }
+
 /* pricing_cart_left start */
-.pricing_cart_left{
+.pricing_cart_left {
     background-color: rgba(255, 255, 255, 1);
     border: 1px solid rgba(229, 231, 235, 1);
 }
-.pricing_cart_left span{
+
+.pricing_cart_left span {
     color: rgba(136, 136, 136, 1);
 }
-.pricing_cart_left h2{
+
+.pricing_cart_left h2 {
     color: rgba(13, 27, 42, 1);
 }
-.pricing_cart_left p{
+
+.pricing_cart_left p {
     color: rgba(136, 136, 136, 1);
 }
-.pricing_cart_left ul li{
+
+.pricing_cart_left ul li {
     color: rgba(51, 51, 51, 1);
 }
-.pricing_cart_left button{
+
+.pricing_cart_left button {
     border: 1px solid rgba(37, 99, 235, 1);
     background-color: #ffff;
 }
-.pricing_cart_left button a{
+
+.pricing_cart_left button a {
     color: rgba(37, 99, 235, 1);
 }
+
 /* pricing_cart_left end */
 /* pricing_cart_midele start  */
-.pricing_cart_midele{
+.pricing_cart_midele {
     background-color: rgba(13, 27, 42, 1);
     border: 1px solid rgba(13, 27, 42, 1);
 }
-.pricing_cart_midele span{
+
+.pricing_cart_midele span {
     color: rgba(147, 197, 253, 1);
 }
-.pricing_cart_midele h2{
+
+.pricing_cart_midele h2 {
     color: rgba(255, 255, 255, 1);
 }
-.pricing_cart_midele p{
+
+.pricing_cart_midele p {
     color: rgba(255, 255, 255, 0.5);
 }
-.pricing_cart_midele ul li{
+
+.pricing_cart_midele ul li {
     color: rgba(255, 255, 255, 0.8);
 }
-.pricing_cart_midele button{
+
+.pricing_cart_midele button {
     padding: 11px 126px !important;
     background-color: rgba(37, 99, 235, 1);
     border: 1px solid rgba(13, 27, 42, 1);
 }
-.pricing_cart_midele button a{
+
+.pricing_cart_midele button a {
     color: rgba(255, 255, 255, 1);
 }
+
 /* pricing_cart_midele end  */
 /* pricing_cart_right start */
-.pricing_cart_right{
+.pricing_cart_right {
     background-color: rgba(248, 249, 251, 1);
     border: 1px solid rgba(229, 231, 235, 1);
 }
-.pricing_cart_right span{
-    color:rgba(136, 136, 136, 1) ;
-}
-.pricing_cart_right h2{
-    color:rgba(13, 27, 42, 1);
-}
-.pricing_cart_right p{
+
+.pricing_cart_right span {
     color: rgba(136, 136, 136, 1);
 }
-.pricing_cart_right{
-    color:rgba(229, 231, 235, 1);
+
+.pricing_cart_right h2 {
+    color: rgba(13, 27, 42, 1);
 }
-.pricing_cart_right ul li{
+
+.pricing_cart_right p {
+    color: rgba(136, 136, 136, 1);
+}
+
+.pricing_cart_right {
+    color: rgba(229, 231, 235, 1);
+}
+
+.pricing_cart_right ul li {
     color: rgba(51, 51, 51, 1);
 }
-.pricing_cart_right button{
+
+.pricing_cart_right button {
     padding: 11px 113px !important;
     border: 1px solid rgba(13, 27, 42, 1);
     background-color: rgba(248, 249, 251, 1);
 }
-.pricing_cart_right button a{
+
+.pricing_cart_right button a {
     color: rgba(13, 27, 42, 1);
 }
+
 /* pricing_cart_right end  */
 /* pricing section end  */
+/* about section start */
+.about {
+    background-color: rgba(248, 249, 251, 1);
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+    color: rgba(13, 27, 42, 1);
+}
+
+.about p {
+    font-size: 1rem;
+    color: rgba(51, 51, 51, 1);
+    max-width: 800px;
+    margin: 0 auto 40px auto;
+    line-height: 1.6;
+}
+
+.about_highlights {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background: rgba(255, 255, 255, 1)ff;
+    border: 1px solid rgba(229, 231, 235, 1);
+    border-radius: 8px;
+    padding: 20px;
+    width: 220px;
+    transition: 0.3s;
+}
+
+.highlight h3 {
+    font-size: 1.5rem;
+    color: rgba(13, 27, 42, 1);
+    margin-bottom: 10px;
+}
+
+.highlight p {
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* about section start */
+/* Why join Section start */
+.why_join {
+    background: linear-gradient(135deg, #1d4ed8, #9333ea);
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    padding: 60px 20px;
+    margin: 80px;
+}
+
+.why_join h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.join_cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 12px;
+    width: 220px;
+    cursor: pointer;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+/* Why join Section end  */
 /* footer section start */
 .footer {
     background-color: rgba(13, 27, 42, 1);
@@ -319,36 +455,44 @@ img {
     padding: 30px 0;
     margin-top: 60px;
 }
-.footer_main{
+
+.footer_main {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .footer_social a {
     margin-left: 15px;
     display: inline-block;
 }
-.footer_social a i{
+
+.footer_social a i {
     color: rgba(255, 255, 255, 0.4);
 }
+
 .footer_divider {
     border: 0;
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     margin: 20px 0;
 }
+
 .footer_links {
     text-align: center;
     margin-bottom: 10px;
 }
+
 .footer_links a {
-    color: rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 0.4);
     margin: 0 8px;
     font-size: 0.9rem;
     transition: color 0.3s;
 }
+
 .footer_copyright {
     text-align: center;
     font-size: 0.9rem;
     color: rgba(255, 255, 255, 0.4);
 }
+
 /* footer section end*/
