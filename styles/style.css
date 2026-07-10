@@ -263,16 +263,12 @@ img {
 }
 .pricing_cart_midele span{
     color: rgba(147, 197, 253, 1);
-
 }
 .pricing_cart_midele h2{
     color: rgba(255, 255, 255, 1);
 }
 .pricing_cart_midele p{
     color: rgba(255, 255, 255, 0.5);
-}
-.pricing_cart_midele hr{
-    /* color: rgba(255, 255, 255, 0.1) !important; */
 }
 .pricing_cart_midele ul li{
     color: rgba(255, 255, 255, 0.8);
@@ -316,3 +312,43 @@ img {
 }
 /* pricing_cart_right end  */
 /* pricing section end  */
+/* footer section start */
+.footer {
+    background-color: rgba(13, 27, 42, 1);
+    color: rgba(255, 255, 255, 0.4);
+    padding: 30px 0;
+    margin-top: 60px;
+}
+.footer_main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_social a {
+    margin-left: 15px;
+    display: inline-block;
+}
+.footer_social a i{
+    color: rgba(255, 255, 255, 0.4);
+}
+.footer_divider {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 20px 0;
+}
+.footer_links {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.footer_links a {
+    color: rgba(255,255,255,0.4);
+    margin: 0 8px;
+    font-size: 0.9rem;
+    transition: color 0.3s;
+}
+.footer_copyright {
+    text-align: center;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.4);
+}
+/* footer section end*/
